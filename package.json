@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/wind-gl.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",

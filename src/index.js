@@ -1,4 +1,3 @@
-
 import * as util from './util';
 
 import drawVert from './shaders/draw.vert.glsl';

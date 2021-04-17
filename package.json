@@ -1,8 +1,8 @@
 {
   "name": "webgl-wind",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/wind-gl.js",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",

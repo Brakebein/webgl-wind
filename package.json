@@ -1,6 +1,6 @@
 {
   "name": "@brakebein/webgl-wind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wind power visualization with WebGL particles",
   "main": "dist/wind-gl.js",
   "types": "types/index.d.ts",
@@ -24,6 +24,10 @@
     "name": "Brakebein",
     "url": "https://github.com/Brakebein"
   }],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brakebein/webgl-wind.git"
+  },
   "license": "ISC",
   "files": [
     "dist",

@@ -1,7 +1,7 @@
 {
-  "name": "webgl-wind",
+  "name": "@brakebein/webgl-wind",
   "version": "1.0.0",
-  "description": "",
+  "description": "Wind power visualization with WebGL particles",
   "main": "dist/wind-gl.js",
   "types": "types/index.d.ts",
   "scripts": {
@@ -11,9 +11,24 @@
     "serve": "st -nc -i index.html",
     "start": "run-p serve watch"
   },
-  "keywords": [],
+  "keywords": [
+    "webgl",
+    "particles",
+    "canvas",
+    "wind",
+    "map",
+    "heatmap"
+  ],
   "author": "Vladimir Agafonkin",
+  "contributors": [{
+    "name": "Brakebein",
+    "url": "https://github.com/Brakebein"
+  }],
   "license": "ISC",
+  "files": [
+    "dist",
+    "types"
+  ],
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
     "eslint": "^8.12.0",
@@ -35,7 +50,9 @@
       "WindGL": false
     },
     "rules": {
+      "linebreak-style": "off",
       "no-var": 2,
+      "object-curly-spacing": ["error", "always"],
       "prefer-const": 2
     }
   }

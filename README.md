@@ -1,4 +1,6 @@
-## WebGL Wind — [Demo](https://mapbox.github.io/webgl-wind/demo/)
+## WebGL Wind
+
+[Demo](https://mapbox.github.io/webgl-wind/demo/)
 
 A WebGL-powered visualization of wind power.
 Capable of rendering up to 1 million wind particles at 60fps.
@@ -13,6 +15,8 @@ with its [open-source version](https://github.com/cambecc/earth).
 - [Chris Wellons](http://nullprogram.com) and his WebGL tutorials,
 in particular [A GPU Approach to Particle Physics](http://nullprogram.com/blog/2014/06/29/).
 - [Greggman](http://games.greggman.com/game/) and his [WebGL Fundamentals](http://webglfundamentals.org/) guide.
+
+This fork of [webgl-wind](https://github.com/mapbox/webgl-wind) adds type definitions and disables distortion towards the poles.
 
 ### Running the demo locally
 

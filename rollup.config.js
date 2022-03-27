@@ -4,7 +4,7 @@ import buble from '@rollup/plugin-buble';
 export default {
     input: 'src/index.js',
     plugins: [
-        string({include: './src/shaders/*.glsl'}),
+        string({ include: './src/shaders/*.glsl' }),
         buble()
     ],
     output: [
